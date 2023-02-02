@@ -1,0 +1,57 @@
+@import url('./header.css');
+@import url('./categories.css');
+@import url('./products.css');
+@import url('./offer.css');
+@import url('./testimonial.css');
+@import url('./brands.css');
+@import url('./footer.css');
+@import url('./responsive.css');
+@import url('./cartDetails.css');
+@import url('./accountPage.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.small-container {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col-3 {
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+
+.col-4 {
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.col-5 {
+    width: 160px;
+}
